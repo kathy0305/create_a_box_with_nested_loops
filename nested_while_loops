@@ -1,3 +1,20 @@
-
 def nested_while_loop_box():
-    pass
+
+    box= ''
+    row = 4
+    col = 4
+    char = '*'
+    count_row=0
+    
+    
+    while count_row < row:
+        line=""
+        count_col=0
+        while count_col < col:
+            line = line+char
+            count_col=count_col +1
+        line=line+ "\n"
+        count_row=count_row+1
+        box= box+line
+        
+    return box

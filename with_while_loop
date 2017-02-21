@@ -1,3 +1,14 @@
 
 def while_loop_box():
-pass
+
+    box= ''
+    row = 4
+    col = 4
+    char = '*'
+    line = char * col + "\n"
+    count = 0
+    while count < row:
+        box = box + line
+        count = count +1
+    return box
+
