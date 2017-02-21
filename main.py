@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 ## create a 4x4 box using nested loops
 
 def nested_box():
@@ -14,3 +15,4 @@ def nested_box():
         line=line + "\n"        # line break after all elements in col returned
         box= box + line
     return box
+
